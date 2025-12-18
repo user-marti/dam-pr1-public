@@ -1,0 +1,11 @@
+nav a {
+    text-decoration: none;
+    color: gray;
+    font-family: "Yrsa", serif;
+    font-weight: 200;
+}
+
+nav a:hover {
+    color: #eb8153;
+    font-weight: 600;
+}
