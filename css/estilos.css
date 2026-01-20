@@ -245,6 +245,22 @@ section h2 {
     gap: 30px;
 }
 
+.projects-container {
+    display: grid; 
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.project-card {
+    background: var(--bg-light); 
+    padding: 20px; 
+    border-radius: 5px;
+    border-top: 3px solid var(--primary-color);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
 /* FOOTER */
 .site-footer { 
     text-align: center; 
