@@ -105,7 +105,6 @@ nav a:hover::after, nav a:focus::after {
     color: black; 
     font-weight: bold; 
 }
-
 .mini-titol { 
     color: black; 
     margin-bottom: 20px; 
@@ -176,6 +175,31 @@ section h2 {
     letter-spacing: 2px;
 }
 
+/* TIMELINE */
+.timeline { 
+    position: relative; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.timeline-item { 
+    padding: 10px 10px 10px 40px; 
+    position: relative; 
+    margin-bottom: 20px; 
+}
+
+.timeline-content {
+    padding: 15px 20px; 
+    background-color: var(--bg-light);
+    border-radius: 6px; 
+}
+
+.timeline-date { 
+    font-weight: bold; 
+    font-size: 14px; 
+    margin-bottom: 5px; 
+}
+
 /* FOOTER */
 .site-footer { 
     text-align: center; 
@@ -187,11 +211,13 @@ section h2 {
 /* TYPOGRAPHY */
 nav a, .card-info h1, section h2, h3 {
     font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase; letter-spacing: 1px;
+    text-transform: uppercase; 
+    letter-spacing: 1px;
 }
 
 #perfil p, .info-block p, .project-card p, .mini-titol, li {
     font-family: 'Yrsa', serif;
-    font-size: 1.15rem; color: var(--text-color);
+    font-size: 1.15rem; 
+    color: var(--text-color);
     line-height: 1.6;
 }
