@@ -239,6 +239,12 @@ section h2 {
     background-color: var(--accent-color);
 }
 
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
 /* FOOTER */
 .site-footer { 
     text-align: center; 
