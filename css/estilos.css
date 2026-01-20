@@ -105,6 +105,7 @@ nav a:hover::after, nav a:focus::after {
     color: black; 
     font-weight: bold; 
 }
+
 .mini-titol { 
     color: black; 
     margin-bottom: 20px; 
@@ -180,6 +181,17 @@ section h2 {
     position: relative; 
     max-width: 800px; 
     margin: 0 auto; 
+}
+
+.timeline::after {
+    content: ''; 
+    position: absolute; 
+    width: 2px;
+    background-color: var(--primary-color);
+    top: 0; 
+    bottom: 0; 
+    left: 20px; 
+    margin-left: -1px;
 }
 
 .timeline-item { 
