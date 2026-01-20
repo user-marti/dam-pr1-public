@@ -1,3 +1,13 @@
+/* 1. VARIABLES PRINCIPALS PER UTILITZAR AMB FACILITAT */
+:root {
+    --primary-color: #00008b;
+    --accent-color: #e74c3c;
+    --text-color: #444;
+    --bg-light: #f9f9f9;
+    --white: #ffffff;
+    --shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
 nav a {
     text-decoration: none;
     color: gray;
