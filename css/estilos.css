@@ -8,14 +8,59 @@
     --shadow: 0 15px 35px rgba(0,0,0,0.2);
 }
 
-nav a {
-    text-decoration: none;
-    color: gray;
-    font-family: "Yrsa", serif;
-    font-weight: 200;
+/* 2. RESET I BASES */
+body { 
+    margin: 0; 
+    font-family: sans-serif; 
+    scroll-behavior: smooth; 
+    color: var(--text-color);
 }
 
-nav a:hover {
-    color: #eb8153;
-    font-weight: 600;
+/* 3. HEADER I FONS */
+header {
+    width: 100%; 
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgba(44, 62, 80, 0.8) 50%, var(--white) 50%), url('https://img.freepik.com/foto-gratis/laptop-taza-cafe-papeleria-escritorio-marron_23-2147979162.jpg?semt=ais_hybrid&w=740&q=80') center/cover no-repeat;
+}
+
+/* 4. NAVEGACIÓ (Responsive) */
+nav { 
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px; 
+    gap: 15px; 
+}
+
+nav a {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 11px;
+    text-decoration: none; 
+    color: var(--white); 
+    position: relative; 
+    padding-bottom: 2px;
+    letter-spacing: 1px;
+}
+
+nav a::after {
+    content: ""; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 0; 
+    height: 2px;
+    background: var(--white); 
+    transition: 0.5s;
+}
+
+nav a:hover::after, nav a:focus::after { 
+    width: 100%; 
+}
+
+/* FOOTER */
+.site-footer { 
+    text-align: center; padding: 40px; 
+    background: #f4f4f4; font-size: 12px; 
 }
