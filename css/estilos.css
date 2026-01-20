@@ -340,3 +340,18 @@ nav a, .card-info h1, section h2, h3 {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+@media print {
+    nav { display: none; }
+    
+    header { 
+        background: none; 
+        min-height: auto; 
+        height: auto; 
+    }
+    
+    .targeta-principal { 
+        box-shadow: none; 
+        border: 1px solid #ccc; 
+    }
+}
