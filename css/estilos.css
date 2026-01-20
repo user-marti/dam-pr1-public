@@ -335,4 +335,8 @@ nav a, .card-info h1, section h2, h3 {
     .skills-grid {
         grid-template-columns: 1fr 1fr; 
     }
+
+    .projects-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
