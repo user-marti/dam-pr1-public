@@ -229,6 +229,16 @@ section h2 {
     margin-bottom: 5px; 
 }
 
+.timeline-item:hover .timeline-content {
+    background-color: #f0f4f8; 
+    transform: translateX(10px);
+}
+
+.timeline-item:hover::before {
+    transform: scale(1.4);
+    background-color: var(--accent-color);
+}
+
 /* FOOTER */
 .site-footer { 
     text-align: center; 
