@@ -113,6 +113,28 @@ nav a:hover::after, nav a:focus::after {
 .details-list li { margin-bottom: 10px; font-size: 13px; color: gray; }
 .details-list b { color: black; display: inline-block; width: 80px; }
 
+.social-footer {
+    position: relative; 
+    width: 100%; 
+    height: auto;
+    padding: 15px 0;
+    background-color: var(--primary-color); 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.social-footer a { 
+    color: white; 
+    text-decoration: none; 
+    font-size: 13px; 
+    padding: 5px 10px; 
+    transition: 0.3s; 
+}
+
+.social-footer a:hover { transform: scale(1.1); }
+
 /* FOOTER */
 .site-footer { 
     text-align: center; padding: 40px; 
