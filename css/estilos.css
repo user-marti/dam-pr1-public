@@ -354,4 +354,14 @@ nav a, .card-info h1, section h2, h3 {
         box-shadow: none; 
         border: 1px solid #ccc; 
     }
+
+    body, h1, h2, h3, p, a { 
+        color: #000; 
+    }
+
+    .timeline-content, .project-card {
+        box-shadow: none;
+        background-color: #fff; 
+        border: 1px solid #ccc;
+    }
 }
