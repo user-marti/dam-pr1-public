@@ -99,8 +99,18 @@ nav a:hover::after, nav a:focus::after {
     box-sizing: border-box;
 }
 
-.card-info h1 { margin: 5px 0; font-size: 28px; color: black; font-weight: bold; }
-.mini-titol { color: black; margin-bottom: 20px; font-size: 14px; }
+.card-info h1 { 
+    margin: 5px 0; 
+    font-size: 28px; 
+    color: black; 
+    font-weight: bold; 
+}
+
+.mini-titol { 
+    color: black; 
+    margin-bottom: 20px; 
+    font-size: 14px; 
+}
 
 .separator { 
     border: 0; 
@@ -109,9 +119,22 @@ nav a:hover::after, nav a:focus::after {
     margin-bottom: 30px; 
 }
 
-.details-list { list-style: none; padding: 0; }
-.details-list li { margin-bottom: 10px; font-size: 13px; color: gray; }
-.details-list b { color: black; display: inline-block; width: 80px; }
+.details-list { 
+    list-style: none; 
+    padding: 0; 
+}
+
+.details-list li { 
+    margin-bottom: 10px; 
+    font-size: 13px; 
+    color: gray; 
+}
+
+.details-list b { 
+    color: black; 
+    display: inline-block; 
+    width: 80px; 
+}
 
 .social-footer {
     position: relative; 
@@ -135,8 +158,40 @@ nav a:hover::after, nav a:focus::after {
 
 .social-footer a:hover { transform: scale(1.1); }
 
+.content-wrapper { 
+    max-width: 900px; 
+    margin: 40px auto; 
+    padding: 20px; 
+}
+
+section { margin-bottom: 80px; }
+
+section h2 {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 24px;
+    color: var(--primary-color); 
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px; 
+    margin-bottom: 30px; 
+    letter-spacing: 2px;
+}
+
 /* FOOTER */
 .site-footer { 
-    text-align: center; padding: 40px; 
-    background: #f4f4f4; font-size: 12px; 
+    text-align: center; 
+    padding: 40px; 
+    background: #f4f4f4; 
+    font-size: 12px; 
+}
+
+/* TYPOGRAPHY */
+nav a, .card-info h1, section h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase; letter-spacing: 1px;
+}
+
+#perfil p, .info-block p, .project-card p, .mini-titol, li {
+    font-family: 'Yrsa', serif;
+    font-size: 1.15rem; color: var(--text-color);
+    line-height: 1.6;
 }
