@@ -218,10 +218,13 @@ section h2 {
     padding: 15px 20px; 
     background-color: var(--bg-light);
     border-radius: 6px; 
+    border-left: 4px solid var(--primary-color);
+    transition: 0.3s;
 }
 
 .timeline-date { 
     font-weight: bold; 
+    color: var(--accent-color); 
     font-size: 14px; 
     margin-bottom: 5px; 
 }
