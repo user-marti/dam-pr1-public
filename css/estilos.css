@@ -261,6 +261,19 @@ section h2 {
     justify-content: space-between;
 }
 
+.btn-link {
+    display: inline-block; 
+    margin-top: 10px; 
+    text-decoration: none;
+    color: var(--primary-color); 
+    font-weight: bold; 
+    border-bottom: 1px solid transparent;
+}
+
+.btn-link:hover { 
+    border-bottom: 1px solid var(--primary-color); 
+}
+
 /* FOOTER */
 .site-footer { 
     text-align: center; 
