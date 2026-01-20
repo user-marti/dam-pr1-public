@@ -271,10 +271,21 @@ section h2 {
     font-weight: bold; 
     border-bottom: 1px solid transparent;
 }
+.btn-link:hover { border-bottom: 1px solid var(--primary-color); }
 
-.btn-link:hover { 
-    border-bottom: 1px solid var(--primary-color); 
+.btn {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background: var(--primary-color);
+    color: var(--white); 
+    text-decoration: none; 
+    border-radius: 4px;
+    transition: 0.3s; 
+    cursor: pointer; 
+    border: none; 
+    font-size: 14px;
 }
+.btn:hover { background: #000060; }
 
 /* FOOTER */
 .site-footer { 
@@ -365,7 +376,7 @@ nav a, .card-info h1, section h2, h3 {
         border: 1px solid #ccc;
     }
 
-    .btn-link { 
+    .btn-link, .btn {
         display: none; 
     }
 
