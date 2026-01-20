@@ -109,6 +109,10 @@ nav a:hover::after, nav a:focus::after {
     margin-bottom: 30px; 
 }
 
+.details-list { list-style: none; padding: 0; }
+.details-list li { margin-bottom: 10px; font-size: 13px; color: gray; }
+.details-list b { color: black; display: inline-block; width: 80px; }
+
 /* FOOTER */
 .site-footer { 
     text-align: center; padding: 40px; 
