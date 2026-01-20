@@ -200,6 +200,20 @@ section h2 {
     margin-bottom: 20px; 
 }
 
+.timeline-item::before {
+    content: ''; 
+    position: absolute; 
+    width: 14px; 
+    height: 14px;
+    left: 12px; 
+    background-color: var(--white);
+    border: 3px solid var(--accent-color);
+    top: 15px; 
+    border-radius: 50%; 
+    z-index: 1; 
+    transition: 0.3s;
+}
+
 .timeline-content {
     padding: 15px 20px; 
     background-color: var(--bg-light);
