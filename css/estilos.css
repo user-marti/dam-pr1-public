@@ -314,4 +314,19 @@ nav a, .card-info h1, section h2, h3 {
         padding: 50px;
         padding-bottom: 100px;
     }
+
+    .card-info { 
+        flex: 2; 
+        padding: 50px; 
+    }
+
+    .social-footer {
+        position: absolute; 
+        bottom: 0; 
+        right: 0; 
+        width: 66.66%; 
+        height: 60px;
+        padding: 0;
+        align-items: center;
+    }
 }
