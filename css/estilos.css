@@ -239,12 +239,14 @@ section h2 {
     background-color: var(--accent-color);
 }
 
+/* SKILLS */
 .skills-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
 }
 
+/* PROJECTES */
 .projects-container {
     display: grid; 
     grid-template-columns: 1fr;
@@ -328,5 +330,9 @@ nav a, .card-info h1, section h2, h3 {
         height: 60px;
         padding: 0;
         align-items: center;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr 1fr; 
     }
 }
