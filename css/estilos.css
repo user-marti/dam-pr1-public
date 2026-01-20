@@ -377,4 +377,12 @@ nav a, .card-info h1, section h2, h3 {
     .social-footer, .separator {
         display: none;
     }
+
+    @page { margin: 2cm; }
+    
+    .content-wrapper {
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
 }
