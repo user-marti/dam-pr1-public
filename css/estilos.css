@@ -295,3 +295,11 @@ nav a, .card-info h1, section h2, h3 {
     color: var(--text-color);
     line-height: 1.6;
 }
+
+@media (min-width: 768px) {
+    nav { 
+        justify-content: flex-end; 
+        padding: 30px 50px; 
+        gap: 30px; 
+    }
+}
