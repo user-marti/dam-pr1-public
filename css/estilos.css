@@ -158,7 +158,7 @@ nav a:hover::after, nav a:focus::after {
 
 .details-list li { 
     margin-bottom: 10px; 
-    font-size: 13px; 
+    font-size: 15px; 
     color: gray; 
 }
 
