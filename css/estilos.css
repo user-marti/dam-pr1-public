@@ -16,6 +16,11 @@ body {
     color: var(--text-color);
 }
 
+::selection {
+    background: var(--accent-color);
+    color: var(--white);
+}
+
 /* 3. HEADER I FONS */
 header {
     width: 100%; 
@@ -353,7 +358,10 @@ section h2 {
     text-align: center; 
     padding: 40px; 
     background: #f4f4f4; 
-    font-size: 12px; 
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    border-top: 4px solid var(--primary-color);
 }
 
 /* TYPOGRAPHY */
