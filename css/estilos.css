@@ -231,7 +231,7 @@ section h2 {
     content: ''; 
     position: absolute; 
     width: 2px;
-    background: linear-gradient(to bottom, var(--primary-color), var(--accent-color));
+    background: var(--primary-color);
     top: 0; 
     bottom: 0; 
     left: 20px; 
