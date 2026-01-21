@@ -378,7 +378,11 @@ section h2 {
 
 .btn:hover { background: #000060; }
 
-.info-block { margin-bottom: 30px; }
+.info-block { 
+    margin-bottom: 30px; 
+    border-left: 4px solid var(--accent-color);
+    padding-left: 15px;
+}
 
 .info-block h3 { 
     color: var(--text-color); 
