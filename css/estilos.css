@@ -283,6 +283,10 @@ section h2 {
     background-color: var(--accent-color);
 }
 
+.timeline-item:hover h3 {
+    color: var(--primary-color);
+}
+
 /* SKILLS */
 .skills-grid {
     display: grid;
@@ -393,6 +397,8 @@ nav a, .card-info h1, section h2, h3 {
     text-transform: uppercase; 
     letter-spacing: 1px;
 }
+
+h3 { transition: color 0.3s; }
 
 #perfil p, .info-block p, .project-card p, .mini-titol, li {
     font-family: 'Yrsa', serif;
