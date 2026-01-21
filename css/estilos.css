@@ -120,10 +120,6 @@ nav a:hover::after, nav a:focus::after {
     transition: transform 0.5s;
 }
 
-.card-photo img:hover {
-    transform: scale(1.05);
-}
-
 .card-info { 
     padding: 30px; 
     width: 100%;
