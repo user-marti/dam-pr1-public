@@ -75,7 +75,7 @@ nav a::after {
     bottom: 0; 
     left: 0; 
     width: 0; 
-    height: 2px;
+    height: 1px;
     background: var(--white); 
     transition: 0.5s;
 }
@@ -477,69 +477,6 @@ h3 { transition: color 0.3s; }
 
     .projects-container {
         grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --text-color: #f0f0f0;
-        --bg-light: #2c3e50;
-        --white: #1e272e;
-        --shadow: 0 15px 35px rgba(0,0,0,0.5);
-    }
-
-    body {
-        background-color: #121212;
-    }
-
-    .mini-titol, .details-list b, h3, .info-block h3 {
-        color: #fff;
-    }
-
-    .details-list li {
-        color: #ccc;
-    }
-
-    .timeline-content {
-    padding: 15px 20px; 
-    background-color: var(--bg-light);
-    border-radius: 6px; 
-    border-left: 4px solid var(--primary-color);
-    transition: 0.3s;
-}
-
-.timeline-date { 
-    font-weight: bold; 
-    color: var(--accent-color); 
-    font-size: 13px;
-    margin-bottom: 8px;
-    display: inline-block;
-    padding: 4px 12px;
-    border-radius: 20px;
-}
-    
-    .timeline-item:hover .timeline-content {
-    background-color: #f0f4f8; 
-    transform: translateX(10px);
-}
-
-    .project-card {
-        background-color: #2c3e50;
-        border: 1px solid #444;
-    }
-
-    .skill-group li {
-        background-color: #34495e;
-        color: white;
-    }
-
-    .site-footer {
-        background-color: #1e272e;
-        color: #ccc;
-    }
-    
-    .separator {
-        background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.3), rgba(255,255,255,0));
     }
 }
 
