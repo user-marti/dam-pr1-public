@@ -104,6 +104,7 @@ nav a:hover::after, nav a:focus::after {
     flex-direction: column; 
     overflow: hidden; 
     position: relative;
+    animation: pujarSuau 1s ease-out;
 }
 
 .card-photo { 
@@ -445,6 +446,55 @@ nav a, .card-info h1, section h2, h3 {
 
     .projects-container {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #f0f0f0;
+        --bg-light: #2c3e50;
+        --white: #1e272e;
+        --shadow: 0 15px 35px rgba(0,0,0,0.5);
+    }
+
+    body {
+        background-color: #121212;
+    }
+
+    .mini-titol, .details-list b, h3, .info-block h3 {
+        color: #fff;
+    }
+
+    .details-list li {
+        color: #ccc;
+    }
+
+    .timeline-content {
+        background-color: #2c3e50;
+        border: 1px solid #444;
+    }
+    
+    .timeline-item:hover .timeline-content {
+        background-color: #34495e;
+    }
+
+    .project-card {
+        background-color: #2c3e50;
+        border: 1px solid #444;
+    }
+
+    .skill-group li {
+        background-color: #34495e;
+        color: white;
+    }
+
+    .site-footer {
+        background-color: #1e272e;
+        color: #ccc;
+    }
+    
+    .separator {
+        background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.3), rgba(255,255,255,0));
     }
 }
 
