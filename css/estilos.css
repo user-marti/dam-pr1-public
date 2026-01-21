@@ -132,7 +132,7 @@ nav a:hover::after, nav a:focus::after {
 .card-info h1 { 
     margin: 5px 0; 
     font-size: 28px; 
-    color: black; 
+    color: var(--primary-color); 
     font-weight: bold; 
 }
 
@@ -228,7 +228,7 @@ section h2 {
     content: ''; 
     position: absolute; 
     width: 2px;
-    background-color: var(--primary-color);
+    background: linear-gradient(to bottom, var(--primary-color), var(--accent-color));
     top: 0; 
     bottom: 0; 
     left: 20px; 
