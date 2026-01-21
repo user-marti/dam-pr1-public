@@ -21,6 +21,15 @@ body {
     color: var(--white);
 }
 
+:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 4px;
+}
+
+a:active, button:active, .btn:active, .btn-link:active {
+    transform: scale(0.95);
+}
+
 /* 3. HEADER I FONS */
 header {
     width: 100%; 
