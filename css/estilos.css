@@ -205,6 +205,7 @@ nav a:hover::after, nav a:focus::after {
     max-width: 900px; 
     margin: 40px auto; 
     padding: 20px; 
+    animation: pujarSuau 1s ease-out 0.3s backwards;
 }
 
 section { margin-bottom: 80px; }
