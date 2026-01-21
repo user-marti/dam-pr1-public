@@ -382,6 +382,13 @@ section h2 {
     margin-bottom: 30px; 
     border-left: 4px solid var(--accent-color);
     padding-left: 15px;
+    transition: all 0.3s;
+}
+
+.info-block:hover {
+    background-color: var(--bg-light);
+    border-left-width: 8px;
+    padding-left: 20px;
 }
 
 .info-block h3 { 
