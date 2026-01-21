@@ -136,6 +136,17 @@ nav a:hover::after, nav a:focus::after {
     width: 80px; 
 }
 
+.details-list a { 
+    text-decoration: none; 
+    color: inherit; 
+    transition: color 0.3s; 
+}
+
+.details-list a:hover { 
+    color: var(--primary-color); 
+    text-decoration: underline; 
+}
+
 .social-footer {
     position: relative; 
     width: 100%; 
@@ -324,6 +335,7 @@ nav a, .card-info h1, section h2, h3 {
     line-height: 1.6;
 }
 
+/* MEDIA PER PC */
 @media (min-width: 768px) {
     nav { 
         justify-content: flex-end; 
@@ -367,6 +379,7 @@ nav a, .card-info h1, section h2, h3 {
     }
 }
 
+/* MEDIA PER IMPRESIÓ */
 @media print {
     nav { display: none; }
     
