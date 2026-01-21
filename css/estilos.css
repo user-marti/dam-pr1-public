@@ -249,7 +249,7 @@ section h2 {
     position: absolute; 
     width: 14px; 
     height: 14px;
-    left: 12px; 
+    left: 10px; 
     background-color: var(--white);
     border: 3px solid var(--accent-color);
     top: 15px; 
@@ -280,7 +280,6 @@ section h2 {
 
 .timeline-item:hover::before {
     transform: scale(1.4);
-    background-color: var(--accent-color);
 }
 
 .timeline-item:hover h3 {
