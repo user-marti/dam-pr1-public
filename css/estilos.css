@@ -257,6 +257,29 @@ section h2 {
     gap: 30px;
 }
 
+.skill-group ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-group li {
+    background-color: #e9ecef;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    transition: 0.3s;
+}
+
+.skill-group li:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
 /* PROJECTES */
 .projects-container {
     display: grid; 
